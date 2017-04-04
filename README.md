@@ -45,8 +45,12 @@ Note: Google HeatMap Visualization API was not available for Angular 2. So I imp
 
 #Screenshots
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+1. Login Page
+![Login Page](https://github.com/vivekwisdom/Place-Polygon-Map/blob/master/screenshots/Place-heat-map-login.jpeg)
 
+2. Login Page
+![Login Page](https://github.com/vivekwisdom/Place-Polygon-Map/blob/master/screenshots/Place-heat-map-login.jpeg)
+2. 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
