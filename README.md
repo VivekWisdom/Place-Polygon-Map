@@ -43,7 +43,7 @@ User must be able to delete account: I could have implemented the self account d
 Note: Google HeatMap Visualization API was not available for Angular 2. So I implemented Google Map Polygon Visualization to present the Idea. Again having some more time custom Heat Map visualization wrapper can be developed.
 
 
-#Screenshots
+# Screenshots
 
 1. Sign Up Page
 ![Login Page](https://github.com/vivekwisdom/Place-Polygon-Map/blob/master/screenshots/Place-heat-map-signup.jpeg)
