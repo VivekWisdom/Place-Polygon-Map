@@ -41,3 +41,16 @@ Further Improvement Scenarios:
 Requirements Missed:
 User must be able to delete account: I could have implemented the self account delete and then redirected that user to login screen.
 Note: Google HeatMap Visualization API was not available for Angular 2. So I implemented Google Map Polygon Visualization to present the Idea. Again having some more time custom Heat Map visualization wrapper can be developed.
+
+
+#Screenshots
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
