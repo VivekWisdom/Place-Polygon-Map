@@ -45,16 +45,20 @@ Note: Google HeatMap Visualization API was not available for Angular 2. So I imp
 
 #Screenshots
 
-1. Login Page
-![Login Page](https://github.com/vivekwisdom/Place-Polygon-Map/blob/master/screenshots/Place-heat-map-login.jpeg)
+1. Sign Up Page
+![Login Page](https://github.com/vivekwisdom/Place-Polygon-Map/blob/master/screenshots/Place-heat-map-signup.jpeg)
 
 2. Login Page
 ![Login Page](https://github.com/vivekwisdom/Place-Polygon-Map/blob/master/screenshots/Place-heat-map-login.jpeg)
-2. 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+3. Home Screen 
+![Home Screen](https://github.com/vivekwisdom/Place-Polygon-Map/blob/master/screenshots/home-screen.jpeg)
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+4. Account Edit Page 
+![Account Edit Page](https://github.com/vivekwisdom/Place-Polygon-Map/blob/master/screenshots/account-edit-page.jpeg)
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+5. Search Example 1 for Shopping Malls 
+![Search Example 1](https://github.com/vivekwisdom/Place-Polygon-Map/blob/master/screenshots/search-example-1.jpeg)
+
+6. Search Example 2 for for Specific Restaurants
+![Search Example 2](https://github.com/vivekwisdom/Place-Polygon-Map/blob/master/screenshots/search-example-2.jpeg)
