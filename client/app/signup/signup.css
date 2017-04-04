@@ -1,0 +1,17 @@
+.container {
+    min-height: 520px;
+}
+
+.form-wrapper{
+  margin: 5% auto;
+  text-align: center;
+}
+.error{
+  color: red;
+  padding: 10px 0;;
+}
+
+.signup .title-wrapper {
+    margin: 5% auto;
+    text-align: center;
+}

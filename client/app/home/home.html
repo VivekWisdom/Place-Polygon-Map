@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-8 offset-sm-2 col-md-8 offset-md-2 col-lg-8 offset-lg-2">
+            <h3 class="home-header">Search for Places to see the HeatMap !!</h3>
+            <form class="form-inline" (ngSubmit)="onSubmit()" #queryForm="ngForm" method="post">
+                <div class="form-group">
+                    <label class="sr-only" for="exampleInputEmail3">Place</label>
+                    <input type="text" class="form-control" [(ngModel)]="query.q" name="q" id="queryInput" required placeholder="Enter your Query, e.g. Biryani in Koramangala,Bangalore">
+                </div>
+                <button type="submit" class="btn btn-primary" [disabled]="!queryForm.form.valid">Search</button>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-8 offset-sm-2 col-md-8 offset-md-2 col-lg-8 offset-lg-2">
+            <div id="heatMap" #heatMap *ngIf="places?.results">
+              <h3 class="home-header">Below is the polygon displaying all the nodes on map.</h3>
+                <sebm-google-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+                    <sebm-map-polygon [paths]="paths">
+                    </sebm-map-polygon>
+                </sebm-google-map>
+            </div>
+        </div>
+    </div>
+</div>

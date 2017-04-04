@@ -1,0 +1,26 @@
+.container {
+    min-height: 520px;
+}
+.home-header{
+  text-align: center;
+  padding: 1em 0.5em;
+}
+div.form-group{
+  width: 75%;
+  display: inline-block;
+}
+
+input#queryInput{
+  width: 100%;
+}
+
+#heatMap{
+  min-height: 400px;
+  height: 100%;
+  margin-top: 0.5em;
+}
+
+.sebm-google-map-container{
+  height: 300px;
+  width: 100%;
+}

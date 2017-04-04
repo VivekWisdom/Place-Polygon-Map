@@ -1,0 +1,33 @@
+<div class="container login">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="title-wrapper">
+                <h1 class="title">Welcome to Place HeatMap App</h1>
+                <h2 class="subtitle">This is simple app to search and see heat map of you favourite places.</h2>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 offset-sm-4 col-md-4 offset-md-4 offset-lg-4 col-lg-4">
+            <div class="form-wrapper">
+                <h2>Login Here</h2>
+                <form (ngSubmit)="onSubmit()" #loginForm="ngForm" method="post">
+                    <div class="form-group">
+                        <input type="email" class="form-control" [(ngModel)]="user.email" name="email" placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" [(ngModel)]="user.password" name="password" placeholder="Enter Password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary" [disabled]="!loginForm.form.valid">Submit</button>
+                    <p class="{{dbUser?.status}}" *ngIf="showError">
+                        {{dbUser?.error}}
+                    </p>
+                    <p class="{{dbUser?.status}}" *ngIf="showSuccess">
+                        {{dbUser?.email}}
+                    </p>
+                </form>
+                <p class="new-user">
+                  New user? <a [routerLink]="['/signup']">Sign Up</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

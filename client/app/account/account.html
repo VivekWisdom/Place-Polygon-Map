@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 offset-sm-2 col-md-8 offset-md-2 offset-lg-2 col-lg-8">
+          <div class="form-wrapper">
+              <h2 class="account-header">Edit your account details..</h2>
+              <form (ngSubmit)="onSubmit()" #accountForm="ngForm" method="post">
+                <div class="form-group">
+                    <input type="text" class="form-control" [(ngModel)]="user.name" name="name" placeholder="Enter Name" required>
+                </div>
+                  <div class="form-group">
+                      <input type="email" class="form-control" [(ngModel)]="user.email" name="email" placeholder="Enter email" disabled required>
+                  </div>
+                  <div class="form-group">
+                      <input type="password" class="form-control" [(ngModel)]="user.password" name="password" placeholder="Enter Password" required>
+                  </div>
+                  <button type="submit" class="btn btn-primary" [disabled]="!accountForm.form.valid">Submit</button>
+                  <p class="{{dbUser.status}}" *ngIf="showError">
+                      {{dbUser.error}}
+                  </p>
+              </form>
+          </div>
+      </div>
+    </div>
+</div>

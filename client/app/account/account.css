@@ -1,0 +1,15 @@
+.container {
+    min-height: 520px;
+}
+
+.account-header{
+  text-align: center;
+  padding: 1em 0.5em;
+}
+div.form-group{
+  width: 100%;
+}
+
+input{
+  width: 100%;
+}
